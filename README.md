@@ -22,7 +22,7 @@ in this google drive, you can see how we establish a folder architecture.
 * VOC2007/test/before: save json get from labelme(test)
 
 # Model 2: Fine tuned U-net
-This model we find it on the github, and changed a lot bit, in this model we freeze and use pre-trained parameters and then unfreeze and train all the parameters. 
+This model we find it on the github, and changed a little bit, in this model we freeze and use pre-trained parameters and then unfreeze and train all the parameters. 
 The original code link is :https://github.com/bubbliiiing/unet-keras.git
 ## we changed
 * classes = ["_background_","iris"]

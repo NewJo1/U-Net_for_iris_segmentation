@@ -33,13 +33,29 @@ scipy==1.2.1
 
 
 numpy==1.17.0
+
+
 matplotlib==3.1.2
+
+
 opencv_python==4.1.2.30
+
+
 torch==1.2.0
+
+
 torchvision==0.4.0
+
+
 tqdm==4.60.0
+
+
 Pillow==8.2.0
+
+
 h5py==2.10.0
+
+
 * install labelme. We recommend use labelme version = 3.16.7, which is more stable.
 * process dataset. We have processed the data using labelme. Here, we just need transfer json to jpg(label image) once. So here, I annotate this part of code.
 * the dataset we processed will be given as following link:https://drive.google.com/drive/folders/1QOAUo0swBbwYzKiokeuXr00DbOoQZxd0?usp=sharing

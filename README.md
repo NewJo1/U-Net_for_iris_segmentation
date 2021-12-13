@@ -24,7 +24,7 @@ in this google drive, you can see how we establish a folder architecture.
 # Model 2: Fine tuned U-net
 This model we find it on the github, and changed a little bit, in this model we freeze and use pre-trained parameters and then unfreeze and train all the parameters. 
 The original code link is :https://github.com/bubbliiiing/unet-keras.git
-## we changed
+## We changed
 * classes = ["_background_","iris"]
 * num_classes = 2
 * The parameters we trained: https://drive.google.com/file/d/1YKDAgz10Ugb9pDYUPkVYA5VUjWQ3UGcd/view?usp=sharing 

@@ -29,7 +29,9 @@ The original code link is :https://github.com/bubbliiiing/unet-keras.git
 * num_classes = 2
 * The parameters we trained: https://drive.google.com/file/d/1YKDAgz10Ugb9pDYUPkVYA5VUjWQ3UGcd/view?usp=sharing 
 ## Require
-scipy==1.2.1\n
+scipy==1.2.1
+
+
 numpy==1.17.0
 matplotlib==3.1.2
 opencv_python==4.1.2.30

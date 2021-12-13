@@ -8,6 +8,7 @@ Here, we note some points:
 * keep_image_size_open is used for resize image equally. resize image directly will cause some error.
 * the dataset we processed will be given as following link:https://drive.google.com/drive/folders/1QOAUo0swBbwYzKiokeuXr00DbOoQZxd0?usp=sharing
 in this google drive, you can see how we establish a folder architecture.
+* for training, we use "while true". So you have to stop it manully. You can also set a epoch number. A fixed epoch number is also supported.
 ### talking about folder:
 * VOC2007/params/unet.pth: used for save parameters
 * VOC2007/JPEDImages: save original image for training dataset
